@@ -26,6 +26,10 @@ order", more "look this up when you need it".
 
 - [**Rooting Samsung Galaxy S25 Ultra (SM-S938B)** on One UI 7 via firmware downgrade + Magisk](./root-samsung-s25-ultra.md) — end-to-end walkthrough covering ADB setup, debloating, One UI 7 firmware downgrade to re-enable OEM Unlock, bootloader unlock, and Magisk root with Play Integrity bypass. International Exynos model only.
 
+### Offensive security / mobile pentest
+
+- [**Building a phone-based pentest environment on a rooted Android**](./android-pentest-environment-on-rooted-phone.md) — Termux + Kali (`proot-distro` chroot) + XFCE over VNC + Frida, end-to-end. Includes the headless-drive trick (`adb shell run-as com.termux`), the `proot-distro` v5 breaking change, why `frida-tools` won't `pip install` in Termux, and the gotchas you'd otherwise rediscover the hard way.
+
 ## Conventions
 
 - One guide per Markdown file, kebab-case filename.
