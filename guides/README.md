@@ -5,6 +5,12 @@ order", more "look this up when you need it".
 
 ## Index
 
+### Personal agent workspaces
+
+- [**The portable agent workspace pattern**](./portable-agent-workspace-pattern.md) — model-agnostic folder layout (`AGENT.md`, `SECURITY.md`, `prompts/`, `skills/`, `tools/`, `mcp/`, `context/`, `memory/`, `workspace/`) that survives swapping AI vendors. The structural reference.
+- [**Secrets management for personal AI agents**](./secrets-management-for-ai-agents.md) — the twin-file pattern (`*.template.json` vs `*.json`), the `.gitignore` block that actually works, agent-side "never leak secrets" rules, and rotation steps.
+- [**Persistent memory for stateful agents**](./persistent-memory-for-stateful-agents.md) — `memory/journal/` + `memory/decisions/` with explicit triggers, naming for greppability, and the cross-reference rule that makes it compound over months.
+
 ### Retrieval, embeddings & vision pipelines
 
 - [**Setting up a local RAG pipeline you can actually trust**](./local-rag-pipeline.md) — ChromaDB + sentence-transformers (`all-MiniLM-L6-v2`) on disk, sidecar-first corpus shape, embedding-model pinning, UMAP+HDBSCAN clustering, and turning a corpus into a synthesizable profile.
