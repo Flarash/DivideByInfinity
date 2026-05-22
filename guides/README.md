@@ -5,6 +5,11 @@ order", more "look this up when you need it".
 
 ## Index
 
+### Retrieval, embeddings & vision pipelines
+
+- [**Setting up a local RAG pipeline you can actually trust**](./local-rag-pipeline.md) — ChromaDB + sentence-transformers (`all-MiniLM-L6-v2`) on disk, sidecar-first corpus shape, embedding-model pinning, UMAP+HDBSCAN clustering, and turning a corpus into a synthesizable profile.
+- [**Image-analysis pipelines with LLMs — the reality**](./image-analysis-pipelines-with-llms.md) — model tier selection, per-model rate limits, checkpointing every 25 items, Pillow downscale economics, manifest-based resumption, and the 12-point pre-flight checklist for unattended runs.
+
 ### Patterns for AI-driven repos
 
 - [**Hybrid agent-workspace + `tools/` pattern**](./hybrid-agent-workspace-pattern.md) — a repo layout convention for projects mixing human-edited content with agent automation. Covers `workspace/`, `tools/`, `prompts/`, `memory/`, `context/`, and `AGENTS.md`.

@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-3-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-4-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-6-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-3-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 
 <sub>No site to build. No newsletter to sign up to. Just files.</sub>
@@ -30,6 +30,8 @@ If you came here for one specific thing, jump straight to it:
 | 🤖 Build a repo where Copilot opens its own PRs              | [Copilot-Coding-Agent-driven repo](./tutorials/copilot-coding-agent-driven-repo.md)   |
 | 🔌 Wire MCP servers into your editor & CLI                   | [Local MCP servers — Spotify + AutoCAD](./tutorials/wiring-local-mcp-servers-spotify-and-autocad.md) |
 | 🎨 Extract a taste profile from a Pinterest folder           | [Pinterest taste extraction](./tutorials/local-pinterest-taste-extraction-with-agent-mode.md) |
+| 🧠 Set up a local RAG pipeline over your own corpus          | [Local RAG pipeline](./guides/local-rag-pipeline.md)                                  |
+| 🖼️ Run an LLM over hundreds of images without losing work    | [Image-analysis pipelines with LLMs](./guides/image-analysis-pipelines-with-llms.md)  |
 | 🚦 Use PRs as the approval gate for risky automation         | [PR-as-publish-gate](./guides/pr-as-publish-gate.md)                                  |
 | 🗂️ Lay out a repo that mixes humans + agents                 | [Hybrid agent-workspace pattern](./guides/hybrid-agent-workspace-pattern.md)          |
 | ⏰ Run scheduled audits that write one PR per run            | [Scheduled audit workflows](./guides/scheduled-perf-audit-workflow.md)                |
