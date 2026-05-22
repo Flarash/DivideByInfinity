@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-14-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-18-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -96,6 +96,10 @@ Let agents draft risky side effects — social posts, deploys, outbound email �
 | ☸️ Take an AKS cluster from "demo" to production              | [AKS production checklist](./guides/cloud-platform/aks-production-checklist.md)                       |
 | 🔁 Pick between Azure DevOps, GitLab CI, and Jenkins          | [CI/CD pipeline patterns](./guides/cloud-platform/cicd-pipeline-patterns.md)                          |
 | 📊 Wire up Prometheus + Grafana + logs without overpaying     | [Observability stack](./guides/cloud-platform/observability-stack.md)                                 |
+| 🔧 Build an MCP server that an agent actually uses well       | [Writing an MCP server](./guides/agentic-tooling/writing-an-mcp-server.md)                            |
+| 🧬 Ship Copilot CLI skills that activate at the right time    | [Building Copilot CLI skills](./guides/agentic-tooling/copilot-cli-skills.md)                         |
+| 🕸️ Decide when to spawn sub-agents (and when NOT to)          | [Multi-agent orchestration patterns](./guides/agentic-tooling/multi-agent-orchestration.md)           |
+| 🧪 Build an eval harness for your prompts and skills          | [Agent eval harness](./guides/agentic-tooling/agent-eval-harness.md)                                  |
 
 ---
 

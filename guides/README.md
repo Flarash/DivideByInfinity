@@ -14,6 +14,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | ⚙️ [**`automation-patterns/`**](./automation-patterns/) | Patterns for repos where agents do work. PR-as-publish-gate, scheduled one-PR-per-run audits. |
 | ☁️ [**`cloud-platform/`**](./cloud-platform/) | Platform-layer patterns for cloud infra. Terraform on Azure, AKS production checklist, CI/CD across the big three, Prometheus + Grafana + ELK observability. |
 | 📱 [**`android/`**](./android/) | Phone-side adventures. Rooting Samsung Galaxy S25 Ultra, turning a rooted phone into a Termux+Kali+Frida pentest rig. |
+| 🤖 [**`agentic-tooling/`**](./agentic-tooling/) | Patterns for building MCP servers, Copilot CLI skills, multi-agent orchestration, and eval harnesses. |
 
 ## 🗺️ Full guide index
 
@@ -45,6 +46,13 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 
 - [**Rooting Samsung Galaxy S25 Ultra (SM-S938B)** on One UI 7 via firmware downgrade + Magisk](./android/root-samsung-s25-ultra.md) — end-to-end walkthrough covering ADB setup, debloating, One UI 7 firmware downgrade to re-enable OEM Unlock, bootloader unlock, and Magisk root with Play Integrity bypass. International Exynos model only.
 - [**Building a phone-based pentest environment on a rooted Android**](./android/android-pentest-environment-on-rooted-phone.md) — Termux + Kali (`proot-distro` chroot) + XFCE over VNC + Frida, end-to-end. Includes the headless-drive trick (`adb shell run-as com.termux`), the `proot-distro` v5 breaking change, why `frida-tools` won't `pip install` in Termux, and the gotchas you'd otherwise rediscover the hard way.
+
+### 🤖 Agentic tooling — [`agentic-tooling/`](./agentic-tooling/)
+
+- [**Writing your own MCP server**](./agentic-tooling/writing-an-mcp-server.md) — stdio vs HTTP transport, schema design rules, the "description IS the prompt" lesson, logging-to-stderr trap, and the gotchas (schema drift, name collisions, timeouts, token-stuffing) that ship with every first MCP server.
+- [**Building Copilot CLI skills**](./agentic-tooling/copilot-cli-skills.md) — `SKILL.md` anatomy, description-as-activation-trigger, procedural vs declarative bodies, one-skill-per-intent scoping, and the drift problems that hit every long-lived skill folder.
+- [**Multi-agent orchestration patterns**](./agentic-tooling/multi-agent-orchestration.md) — when to delegate vs do it yourself, parallel-only-if-independent rule, sub-agent prompt anatomy, owner-per-scope discipline, cost reality, and the anti-patterns ("planner + implementer" splits, speculative sub-agents) to avoid.
+- [**Building an agent eval harness**](./agentic-tooling/agent-eval-harness.md) — three eval layers (prompt/tool/e2e), property-based golden cases, LLM-as-judge biases (self-preference, verbose-wins, order), cost+latency tracking, eval drift, and when NOT to build a harness at all.
 
 ## Conventions
 
