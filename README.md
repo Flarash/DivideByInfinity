@@ -22,25 +22,76 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 ## 👋 Welcome
 
-Welcome. This repo is where I publish the **practical, lessons-learned** version of things I'm actively shipping — Copilot Coding Agents that open their own PRs, MCP servers that drive AutoCAD, OAuth pipelines that post to LinkedIn, and the occasional unrelated tangent like rooting a Galaxy S25 Ultra.
+This repo is the **practical, lessons-learned** version of things I'm actively shipping — Copilot Coding Agents that open their own PRs, MCP servers that drive AutoCAD, OAuth pipelines that post to LinkedIn, a Galaxy S25 Ultra that boots into a pentest lab.
 
-If you came here for one specific thing, jump straight to it:
+No site. No newsletter. Just Markdown.
+
+---
+
+## 🔥 Featured
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📱 Root a Galaxy S25 Ultra
+
+**[Root S25 Ultra on One UI 7 →](./guides/android/root-samsung-s25-ultra.md)**
+
+Full-firmware Magisk patch flow on a current Samsung flagship. KnoxGuard, bootloader unlock, the firmware-version trap that bricks half the tutorials online, and how to keep banking apps working afterwards via Shamiko.
+
+<sub>⚠️ Trips Knox. Voids warranty. Don't do this to a phone you can't replace.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ Phone-as-Pentest-Rig
+
+**[Phone pentest environment on a rooted phone →](./guides/android/android-pentest-environment-on-rooted-phone.md)**
+
+Turn that same rooted S25 Ultra into a pocket security lab — Kali NetHunter chroot, Termux toolchain, OTG-Wi-Fi adapter for monitor mode, NetHunter Store apps, and the cheap accessory list that makes the whole rig actually portable.
+
+<sub>🔒 Authorized targets only. Read the scope-and-consent section first.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Copilot opens its own PRs
+
+**[Copilot-Coding-Agent-driven repo →](./tutorials/copilot-coding-agent-driven-repo.md)**
+
+Scheduled workflows that file issues, assign them to `copilot-swe-agent`, and ship focused PRs while you're asleep. Includes the PAT-assignment trick the official docs gloss over.
+
+</td>
+<td width="50%" valign="top">
+
+### 🚦 PR-as-Publish-Gate
+
+**[PR-as-publish-gate →](./guides/automation-patterns/pr-as-publish-gate.md)**
+
+Let agents draft risky side effects — social posts, deploys, outbound email — but make a **merged PR the only thing that fires them**. Comes with the LinkedIn / Threads / Instagram OAuth gotchas I had to learn the painful way.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧭 Find what you want
 
 | If you want to…                                              | Start here                                                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
 | 🧩 Set up a model-agnostic personal agent workspace          | [Portable agent workspace pattern](./guides/agent-workspaces/portable-agent-workspace-pattern.md) → [Bootstrapping tutorial](./tutorials/bootstrapping-a-personal-agent-workspace.md) |
 | 🔐 Stop leaking secrets from your agent configs              | [Secrets management for AI agents](./guides/agent-workspaces/secrets-management-for-ai-agents.md)      |
 | 🧠 Give an agent memory that compounds across sessions       | [Persistent memory for stateful agents](./guides/agent-workspaces/persistent-memory-for-stateful-agents.md) |
-| 🤖 Build a repo where Copilot opens its own PRs              | [Copilot-Coding-Agent-driven repo](./tutorials/copilot-coding-agent-driven-repo.md)   |
 | 🔌 Wire MCP servers into your editor & CLI                   | [Local MCP servers — Spotify + AutoCAD](./tutorials/wiring-local-mcp-servers-spotify-and-autocad.md) |
 | 🎨 Extract a taste profile from a Pinterest folder           | [Pinterest taste extraction](./tutorials/local-pinterest-taste-extraction-with-agent-mode.md) |
 | 🧠 Set up a local RAG pipeline over your own corpus          | [Local RAG pipeline](./guides/ai-pipelines/local-rag-pipeline.md)                                  |
 | 🖼️ Run an LLM over hundreds of images without losing work    | [Image-analysis pipelines with LLMs](./guides/ai-pipelines/image-analysis-pipelines-with-llms.md)  |
-| 🚦 Use PRs as the approval gate for risky automation         | [PR-as-publish-gate](./guides/automation-patterns/pr-as-publish-gate.md)                                  |
 | 🗂️ Lay out a repo that mixes humans + agents                 | [Hybrid agent-workspace pattern](./guides/agent-workspaces/hybrid-agent-workspace-pattern.md)          |
 | ⏰ Run scheduled audits that write one PR per run            | [Scheduled audit workflows](./guides/automation-patterns/scheduled-perf-audit-workflow.md)                |
-| 📱 Root a Galaxy S25 Ultra (because why not)                 | [Root S25 Ultra on One UI 7](./guides/android/root-samsung-s25-ultra.md)                      |
-| 🛡️ Turn a rooted phone into a pentest rig                    | [Phone-based pentest environment](./guides/android/android-pentest-environment-on-rooted-phone.md) |
 
 ---
 
@@ -83,16 +134,6 @@ One folder per tool — Copilot Coding Agent, MCP servers, Smithery — with got
 </td>
 </tr>
 </table>
-
----
-
-## ✨ Highlights
-
-> **🤖 [Copilot-Coding-Agent-driven repos](./tutorials/copilot-coding-agent-driven-repo.md)** — set up scheduled workflows that open issues, assign them to `copilot-swe-agent`, and produce focused PRs. Includes the PAT-assignment trick that the docs gloss over.
-
-> **🔌 [Wiring local MCP servers](./tutorials/wiring-local-mcp-servers-spotify-and-autocad.md)** — Spotify and AutoCAD, wired into both VS Code Copilot Chat *and* the Copilot CLI. Plus the wrapper-key mismatch that silently breaks half the tutorials online.
-
-> **🚦 [PR-as-publish-gate](./guides/automation-patterns/pr-as-publish-gate.md)** — let agents draft side-effecting actions (social posts, deploys, outbound email), but make a merged PR the only thing that fires them. Comes with the LinkedIn/Threads/Instagram OAuth gotchas I had to learn the hard way.
 
 ---
 
