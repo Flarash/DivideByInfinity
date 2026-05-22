@@ -19,7 +19,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 ---
 
-## 👋 You probably got here from a bio link
+## 👋 Welcome
 
 Welcome. This repo is where I publish the **practical, lessons-learned** version of things I'm actively shipping — Copilot Coding Agents that open their own PRs, MCP servers that drive AutoCAD, OAuth pipelines that post to LinkedIn, and the occasional unrelated tangent like rooting a Galaxy S25 Ultra.
 
