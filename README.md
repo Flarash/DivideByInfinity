@@ -9,9 +9,9 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 <br />
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
-[![Tutorials](https://img.shields.io/badge/Tutorials-3-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-6-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
-[![Tools](https://img.shields.io/badge/Tools-3-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
+[![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
+[![Guides](https://img.shields.io/badge/Guides-9-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
 <sub>No site to build. No newsletter to sign up to. Just files.</sub>
@@ -28,6 +28,9 @@ If you came here for one specific thing, jump straight to it:
 
 | If you want to…                                              | Start here                                                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| 🧩 Set up a model-agnostic personal agent workspace          | [Portable agent workspace pattern](./guides/portable-agent-workspace-pattern.md) → [Bootstrapping tutorial](./tutorials/bootstrapping-a-personal-agent-workspace.md) |
+| 🔐 Stop leaking secrets from your agent configs              | [Secrets management for AI agents](./guides/secrets-management-for-ai-agents.md)      |
+| 🧠 Give an agent memory that compounds across sessions       | [Persistent memory for stateful agents](./guides/persistent-memory-for-stateful-agents.md) |
 | 🤖 Build a repo where Copilot opens its own PRs              | [Copilot-Coding-Agent-driven repo](./tutorials/copilot-coding-agent-driven-repo.md)   |
 | 🔌 Wire MCP servers into your editor & CLI                   | [Local MCP servers — Spotify + AutoCAD](./tutorials/wiring-local-mcp-servers-spotify-and-autocad.md) |
 | 🎨 Extract a taste profile from a Pinterest folder           | [Pinterest taste extraction](./tutorials/local-pinterest-taste-extraction-with-agent-mode.md) |
