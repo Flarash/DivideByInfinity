@@ -3,17 +3,11 @@
 Content organized **per tool or integration**. Use this section as an index when you
 already know which tool you care about.
 
-> _No tool pages published yet — check back soon, or watch the repo for updates._
-
 ## Index
 
-<!--
-Each tool gets its own subfolder with a README.md as the landing page, e.g.:
-
-- [Copilot CLI](./copilot-cli/)
-- [Claude Code](./claude-code/)
-- [MCP servers](./mcp-servers/)
--->
+- 🤖 [**Copilot Coding Agent**](./copilot-coding-agent/) — GitHub's cloud-side coding agent assigned via issues. PAT-assignment quirk, iteration loop, when to use it.
+- 🔌 [**MCP servers**](./mcp-servers/) — the Model Context Protocol contract, per-agent config locations, common servers (Spotify, AutoCAD, filesystem, memory), and how to build your own.
+- ☁️ [**Smithery**](./smithery/) — hosted MCP server runtime. Auth, URL shape, when to pick it over local, common errors.
 
 ## Conventions
 
