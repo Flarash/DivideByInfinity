@@ -12,6 +12,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 [![Tutorials](https://img.shields.io/badge/Tutorials-3-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
 [![Guides](https://img.shields.io/badge/Guides-6-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-3-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
+[![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
 <sub>No site to build. No newsletter to sign up to. Just files.</sub>
 

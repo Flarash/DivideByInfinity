@@ -1,0 +1,32 @@
+# lychee config — see https://lychee.cli.rs/usage/config/
+
+# Don't fail on transient remote issues. Internal links still fail loudly.
+accept = [200, 206, 429]
+
+# Treat these as "the link is fine, the server is being weird".
+exclude = [
+  # GitHub anchors inside private/SSO-gated content can 404 to anonymous CI.
+  "https://github\\.com/.*#.*",
+  # Common transient: link previews to social sites often 403 for bots.
+  "^https?://(www\\.)?(linkedin|threads|instagram|x|twitter)\\.com/.*",
+  # Localhost / private examples used in code blocks
+  "^https?://(localhost|127\\.0\\.0\\.1)",
+  "^https?://.*\\.local",
+]
+
+# Don't traverse into git/node/python noise (defensive — globs already exclude these).
+exclude_path = [
+  ".git",
+  "node_modules",
+  ".venv",
+  "venv",
+]
+
+# Be polite to external hosts.
+max_concurrency = 8
+timeout = 20
+max_retries = 2
+retry_wait_time = 2
+
+# Headers some sites want to return real content to a bot.
+user_agent = "Mozilla/5.0 (compatible; lychee-link-check; +https://github.com/lycheeverse/lychee)"
