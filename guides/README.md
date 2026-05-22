@@ -3,16 +3,11 @@
 Reference-style guides, cheat sheets, and conceptual explainers. Less "do this in
 order", more "look this up when you need it".
 
-> _No guides published yet — check back soon, or watch the repo for updates._
-
 ## Index
 
-<!--
-Add entries here as guides land, e.g.:
+### Android / device modding
 
-- [MCP at a glance](./mcp-at-a-glance.md)
-- [Prompting patterns for agentic CLIs](./agentic-cli-prompting-patterns.md)
--->
+- [Rooting Samsung Galaxy S25 Ultra (SM-S938B) on One UI 7 via firmware downgrade + Magisk](./root-samsung-s25-ultra.md) — end-to-end walkthrough covering ADB setup, debloating, One UI 7 firmware downgrade to re-enable OEM Unlock, bootloader unlock, and Magisk root with Play Integrity bypass. International Exynos model only.
 
 ## Conventions
 

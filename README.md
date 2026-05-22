@@ -1,8 +1,8 @@
 # DivideByInfinity
 
-Personal tutorials and guides on **AI tooling & integrations** — things like AI coding
-assistants, agentic CLIs, MCP servers, IDE integrations, and the workflows that tie them
-together.
+Personal tutorials and guides on **AI tooling, integrations, and other tech I work with**
+— from AI coding assistants, agentic CLIs, MCP servers, and IDE integrations, to the
+occasional deep-dive on adjacent topics like device modding and developer workflows.
 
 Everything here is written in plain Markdown so it renders natively on GitHub. No site to
 build, no toolchain to install — just open the files.
