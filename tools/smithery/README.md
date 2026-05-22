@@ -101,6 +101,6 @@ the broader toolbox of your installed Smithery connections.
 ## Reference
 
 - Smithery: <https://smithery.ai/>
-- Smithery Connect REST docs: <https://smithery.ai/docs/connect/rest>
+- Smithery docs: <https://smithery.ai/docs>
 - MCP spec: <https://modelcontextprotocol.io/>
 - Local MCP servers — [tools/mcp-servers/](../mcp-servers/)
