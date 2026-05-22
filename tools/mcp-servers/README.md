@@ -45,7 +45,9 @@ server from more than one machine or surface.
 - Smoke test: ask `what's currently playing?` from your agent.
 
 ### AutoCAD
-- Repo: <https://github.com/oraltherapy/CAD-MCP> (Python COM bridge)
+- Several community AutoCAD MCP servers exist; the COM-bridge pattern below uses any of them
+  (e.g. [`puran-water/autocad-mcp`](https://github.com/puran-water/autocad-mcp) or
+  [`thepiruthvirajan/autocad-mcp-server`](https://github.com/thepiruthvirajan/autocad-mcp-server)).
 - ~12 drawing primitives plus `save_drawing` and natural-language `process_command`.
 - Windows-only; needs full AutoCAD installed (not LT). AutoCAD is launched lazily on
   first `draw_*` tool call.

@@ -220,6 +220,6 @@ copy-paste.
 
 ## Where to go next
 
-- **[guides/wiring-mcp-servers-locally-and-via-smithery.md](../guides/wiring-mcp-servers-locally-and-via-smithery.md)** — when to host MCP servers locally vs use Smithery.
+- **[tools/smithery/](../tools/smithery/)** — when to host MCP servers locally vs use Smithery.
 - **[tools/mcp-servers/](../tools/mcp-servers/)** — quick links to the servers I run.
 - The MCP spec itself: <https://modelcontextprotocol.io/>.

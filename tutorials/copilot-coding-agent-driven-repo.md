@@ -201,7 +201,7 @@ not re-open it on its own.
 ## Phase 5 — Promote the pattern
 
 Once one schedule works, the rest is copy-paste. The repo I built using this exact
-shape ([Bellwether]) ended up with 8 scheduled workflows:
+shape ended up with 8 scheduled workflows:
 
 - 1 daily report dispatcher
 - 6 crawler workflows on staggered crons (Reddit, Bluesky, RSS, etc.)
@@ -209,8 +209,6 @@ shape ([Bellwether]) ended up with 8 scheduled workflows:
 
 Each one opens its own issue from its own prompt file in `prompts/`. The PAT step is
 identical across all of them; the only thing that changes is the prompt.
-
-[Bellwether]: https://github.com/Flarash/Bellwether
 
 ---
 
