@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-10-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-14-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -92,6 +92,10 @@ Let agents draft risky side effects — social posts, deploys, outbound email �
 | 🖼️ Run an LLM over hundreds of images without losing work    | [Image-analysis pipelines with LLMs](./guides/ai-pipelines/image-analysis-pipelines-with-llms.md)  |
 | 🗂️ Lay out a repo that mixes humans + agents                 | [Hybrid agent-workspace pattern](./guides/agent-workspaces/hybrid-agent-workspace-pattern.md)          |
 | ⏰ Run scheduled audits that write one PR per run            | [Scheduled audit workflows](./guides/automation-patterns/scheduled-perf-audit-workflow.md)                |
+| ☁️ Lay out Terraform for Azure without state-file pain        | [Terraform on Azure](./guides/cloud-platform/terraform-on-azure.md)                                   |
+| ☸️ Take an AKS cluster from "demo" to production              | [AKS production checklist](./guides/cloud-platform/aks-production-checklist.md)                       |
+| 🔁 Pick between Azure DevOps, GitLab CI, and Jenkins          | [CI/CD pipeline patterns](./guides/cloud-platform/cicd-pipeline-patterns.md)                          |
+| 📊 Wire up Prometheus + Grafana + logs without overpaying     | [Observability stack](./guides/cloud-platform/observability-stack.md)                                 |
 
 ---
 

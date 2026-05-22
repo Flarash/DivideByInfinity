@@ -12,6 +12,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | 🧩 [**`agent-workspaces/`**](./agent-workspaces/) | How to lay out a personal agent's home folder. Portable structure, secrets, memory, hybrid human+agent repos. |
 | 🧠 [**`ai-pipelines/`**](./ai-pipelines/) | Retrieval, embeddings, and vision pipelines you run locally. RAG with ChromaDB, batch LLM image tagging. |
 | ⚙️ [**`automation-patterns/`**](./automation-patterns/) | Patterns for repos where agents do work. PR-as-publish-gate, scheduled one-PR-per-run audits. |
+| ☁️ [**`cloud-platform/`**](./cloud-platform/) | Platform-layer patterns for cloud infra. Terraform on Azure, AKS production checklist, CI/CD across the big three, Prometheus + Grafana + ELK observability. |
 | 📱 [**`android/`**](./android/) | Phone-side adventures. Rooting Samsung Galaxy S25 Ultra, turning a rooted phone into a Termux+Kali+Frida pentest rig. |
 
 ## 🗺️ Full guide index
@@ -32,6 +33,13 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 
 - [**PR-as-publish-gate**](./automation-patterns/pr-as-publish-gate.md) — using PRs as the approval boundary for side-effecting automation (social posts, deployments, outbound email). File contracts, validation CI, rollback flow, and OAuth gotchas across LinkedIn/Threads/Instagram.
 - [**Scheduled "one-PR-per-run" audit workflows**](./automation-patterns/scheduled-perf-audit-workflow.md) — pattern for daily/weekly perf, docs, or dependency audits where the audit list lives in the most-recently-merged PR's body. Self-chaining, no external store.
+
+### ☁️ Cloud platform — [`cloud-platform/`](./cloud-platform/)
+
+- [**Terraform on Azure — layout, state, and the gotchas**](./cloud-platform/terraform-on-azure.md) — folders-not-workspaces, remote state in Azure Storage, module rules, secrets via Key Vault, Workload Identity for CI auth, drift detection, and the gotcha collection.
+- [**Kubernetes (AKS) production checklist**](./cloud-platform/aks-production-checklist.md) — multi-zone topology, system/user node pools, Azure CNI Overlay vs flat, NGINX + cert-manager, Key Vault CSI driver, PDBs, Velero-based DR, the first-hour checklist.
+- [**CI/CD pipeline patterns — Azure DevOps, GitLab CI, Jenkins**](./cloud-platform/cicd-pipeline-patterns.md) — universal pipeline shape, per-platform strengths/gotchas, build-once-deploy-many, per-PR ephemeral envs, change-only deploys, picking one for a new org.
+- [**Observability stack: Prometheus + Grafana + ELK**](./cloud-platform/observability-stack.md) — metrics/logs/traces split, Prometheus label cardinality trap, ELK vs Loki trade-off, dashboards-as-code, alert quality rules, where Splunk fits, DR for the observability stack itself.
 
 ### 📱 Android — [`android/`](./android/)
 
