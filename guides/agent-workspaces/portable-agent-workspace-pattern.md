@@ -3,7 +3,7 @@
 A folder layout for personal AI agents that **survives model swaps**, **survives tool swaps**, and **survives you forgetting what you were doing three weeks ago**.
 
 > This is the structural pattern. The companion tutorial
-> [tutorials/bootstrapping-a-personal-agent-workspace.md](../tutorials/bootstrapping-a-personal-agent-workspace.md)
+> [tutorials/bootstrapping-a-personal-agent-workspace.md](../../tutorials/bootstrapping-a-personal-agent-workspace.md)
 > walks through standing one up from scratch.
 
 ---
@@ -149,5 +149,5 @@ When you copy this skeleton to start a new agent:
 
 - [secrets-management-for-ai-agents.md](secrets-management-for-ai-agents.md) — the twin-file pattern.
 - [persistent-memory-for-stateful-agents.md](persistent-memory-for-stateful-agents.md) — journal and decision format.
-- [tutorials/bootstrapping-a-personal-agent-workspace.md](../tutorials/bootstrapping-a-personal-agent-workspace.md) — step-by-step setup.
-- [tools/agent-template/](../tools/agent-template/) — a one-page skeleton reference.
+- [tutorials/bootstrapping-a-personal-agent-workspace.md](../../tutorials/bootstrapping-a-personal-agent-workspace.md) — step-by-step setup.
+- [tools/agent-template/](../../tools/agent-template/) — a one-page skeleton reference.

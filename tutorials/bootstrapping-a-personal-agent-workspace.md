@@ -4,7 +4,7 @@ End-to-end walkthrough: from empty folder to a working,
 model-agnostic agent workspace you can point Copilot / Claude / GPT at.
 
 The structural reference is the
-[portable agent workspace pattern](../guides/portable-agent-workspace-pattern.md).
+[portable agent workspace pattern](../guides/agent-workspaces/portable-agent-workspace-pattern.md).
 This tutorial assumes you've skimmed that.
 
 ---
@@ -78,7 +78,7 @@ node_modules/
 ```
 
 Then write a minimal `SECURITY.md` — see
-[secrets-management-for-ai-agents.md](../guides/secrets-management-for-ai-agents.md)
+[secrets-management-for-ai-agents.md](../guides/agent-workspaces/secrets-management-for-ai-agents.md)
 for the full version. The two rules that matter most:
 
 - Live `mcp-config.json` is gitignored; commit only `mcp-config.template.json`.
@@ -151,7 +151,7 @@ Format: clean Markdown, not a chat transcript.
 ```
 
 The exact format details live in
-[persistent-memory-for-stateful-agents.md](../guides/persistent-memory-for-stateful-agents.md).
+[persistent-memory-for-stateful-agents.md](../guides/agent-workspaces/persistent-memory-for-stateful-agents.md).
 
 ## Step 5 — Write `context/user-profile.md`
 
@@ -273,6 +273,6 @@ heavily.
 - Wire local MCP servers (Spotify, AutoCAD, etc.) — see
   [wiring-local-mcp-servers-spotify-and-autocad.md](wiring-local-mcp-servers-spotify-and-autocad.md).
 - Add a RAG layer for large reference corpora — see
-  [local-rag-pipeline.md](../guides/local-rag-pipeline.md).
+  [local-rag-pipeline.md](../guides/ai-pipelines/local-rag-pipeline.md).
 - Add image-analysis pipelines — see
-  [image-analysis-pipelines-with-llms.md](../guides/image-analysis-pipelines-with-llms.md).
+  [image-analysis-pipelines-with-llms.md](../guides/ai-pipelines/image-analysis-pipelines-with-llms.md).

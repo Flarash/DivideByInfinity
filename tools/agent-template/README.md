@@ -1,7 +1,7 @@
 # Agent template — one-page skeleton
 
 A drop-in folder skeleton for the
-[portable agent workspace pattern](../../guides/portable-agent-workspace-pattern.md).
+[portable agent workspace pattern](../../guides/agent-workspaces/portable-agent-workspace-pattern.md).
 
 This page exists to be **copy-pasted as the starting point for a new agent**.
 For the *why*, read the guide. For the *how to wire it up end-to-end*, see
@@ -109,7 +109,7 @@ You have standing authority to write memory/ and workspace/ without asking.
 - Workspace docs (workspace/<project>/Title_Case.md) — research output.
 
 See the full guide at:
-https://github.com/Flarash/DivideByInfinity/blob/master/guides/persistent-memory-for-stateful-agents.md
+https://github.com/Flarash/DivideByInfinity/blob/master/guides/agent-workspaces/persistent-memory-for-stateful-agents.md
 ```
 
 ## Folder-purpose cheatsheet
@@ -136,7 +136,7 @@ https://github.com/Flarash/DivideByInfinity/blob/master/guides/persistent-memory
 
 ## Reference
 
-- Structural guide: [portable-agent-workspace-pattern.md](../../guides/portable-agent-workspace-pattern.md)
-- Secrets: [secrets-management-for-ai-agents.md](../../guides/secrets-management-for-ai-agents.md)
-- Memory: [persistent-memory-for-stateful-agents.md](../../guides/persistent-memory-for-stateful-agents.md)
+- Structural guide: [portable-agent-workspace-pattern.md](../../guides/agent-workspaces/portable-agent-workspace-pattern.md)
+- Secrets: [secrets-management-for-ai-agents.md](../../guides/agent-workspaces/secrets-management-for-ai-agents.md)
+- Memory: [persistent-memory-for-stateful-agents.md](../../guides/agent-workspaces/persistent-memory-for-stateful-agents.md)
 - End-to-end tutorial: [tutorials/bootstrapping-a-personal-agent-workspace.md](../../tutorials/bootstrapping-a-personal-agent-workspace.md)

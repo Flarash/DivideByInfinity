@@ -28,19 +28,19 @@ If you came here for one specific thing, jump straight to it:
 
 | If you want to…                                              | Start here                                                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| 🧩 Set up a model-agnostic personal agent workspace          | [Portable agent workspace pattern](./guides/portable-agent-workspace-pattern.md) → [Bootstrapping tutorial](./tutorials/bootstrapping-a-personal-agent-workspace.md) |
-| 🔐 Stop leaking secrets from your agent configs              | [Secrets management for AI agents](./guides/secrets-management-for-ai-agents.md)      |
-| 🧠 Give an agent memory that compounds across sessions       | [Persistent memory for stateful agents](./guides/persistent-memory-for-stateful-agents.md) |
+| 🧩 Set up a model-agnostic personal agent workspace          | [Portable agent workspace pattern](./guides/agent-workspaces/portable-agent-workspace-pattern.md) → [Bootstrapping tutorial](./tutorials/bootstrapping-a-personal-agent-workspace.md) |
+| 🔐 Stop leaking secrets from your agent configs              | [Secrets management for AI agents](./guides/agent-workspaces/secrets-management-for-ai-agents.md)      |
+| 🧠 Give an agent memory that compounds across sessions       | [Persistent memory for stateful agents](./guides/agent-workspaces/persistent-memory-for-stateful-agents.md) |
 | 🤖 Build a repo where Copilot opens its own PRs              | [Copilot-Coding-Agent-driven repo](./tutorials/copilot-coding-agent-driven-repo.md)   |
 | 🔌 Wire MCP servers into your editor & CLI                   | [Local MCP servers — Spotify + AutoCAD](./tutorials/wiring-local-mcp-servers-spotify-and-autocad.md) |
 | 🎨 Extract a taste profile from a Pinterest folder           | [Pinterest taste extraction](./tutorials/local-pinterest-taste-extraction-with-agent-mode.md) |
-| 🧠 Set up a local RAG pipeline over your own corpus          | [Local RAG pipeline](./guides/local-rag-pipeline.md)                                  |
-| 🖼️ Run an LLM over hundreds of images without losing work    | [Image-analysis pipelines with LLMs](./guides/image-analysis-pipelines-with-llms.md)  |
-| 🚦 Use PRs as the approval gate for risky automation         | [PR-as-publish-gate](./guides/pr-as-publish-gate.md)                                  |
-| 🗂️ Lay out a repo that mixes humans + agents                 | [Hybrid agent-workspace pattern](./guides/hybrid-agent-workspace-pattern.md)          |
-| ⏰ Run scheduled audits that write one PR per run            | [Scheduled audit workflows](./guides/scheduled-perf-audit-workflow.md)                |
-| 📱 Root a Galaxy S25 Ultra (because why not)                 | [Root S25 Ultra on One UI 7](./guides/root-samsung-s25-ultra.md)                      |
-| 🛡️ Turn a rooted phone into a pentest rig                    | [Phone-based pentest environment](./guides/android-pentest-environment-on-rooted-phone.md) |
+| 🧠 Set up a local RAG pipeline over your own corpus          | [Local RAG pipeline](./guides/ai-pipelines/local-rag-pipeline.md)                                  |
+| 🖼️ Run an LLM over hundreds of images without losing work    | [Image-analysis pipelines with LLMs](./guides/ai-pipelines/image-analysis-pipelines-with-llms.md)  |
+| 🚦 Use PRs as the approval gate for risky automation         | [PR-as-publish-gate](./guides/automation-patterns/pr-as-publish-gate.md)                                  |
+| 🗂️ Lay out a repo that mixes humans + agents                 | [Hybrid agent-workspace pattern](./guides/agent-workspaces/hybrid-agent-workspace-pattern.md)          |
+| ⏰ Run scheduled audits that write one PR per run            | [Scheduled audit workflows](./guides/automation-patterns/scheduled-perf-audit-workflow.md)                |
+| 📱 Root a Galaxy S25 Ultra (because why not)                 | [Root S25 Ultra on One UI 7](./guides/android/root-samsung-s25-ultra.md)                      |
+| 🛡️ Turn a rooted phone into a pentest rig                    | [Phone-based pentest environment](./guides/android/android-pentest-environment-on-rooted-phone.md) |
 
 ---
 
@@ -92,7 +92,7 @@ One folder per tool — Copilot Coding Agent, MCP servers, Smithery — with got
 
 > **🔌 [Wiring local MCP servers](./tutorials/wiring-local-mcp-servers-spotify-and-autocad.md)** — Spotify and AutoCAD, wired into both VS Code Copilot Chat *and* the Copilot CLI. Plus the wrapper-key mismatch that silently breaks half the tutorials online.
 
-> **🚦 [PR-as-publish-gate](./guides/pr-as-publish-gate.md)** — let agents draft side-effecting actions (social posts, deploys, outbound email), but make a merged PR the only thing that fires them. Comes with the LinkedIn/Threads/Instagram OAuth gotchas I had to learn the hard way.
+> **🚦 [PR-as-publish-gate](./guides/automation-patterns/pr-as-publish-gate.md)** — let agents draft side-effecting actions (social posts, deploys, outbound email), but make a merged PR the only thing that fires them. Comes with the LinkedIn/Threads/Instagram OAuth gotchas I had to learn the hard way.
 
 ---
 

@@ -267,5 +267,5 @@ side-effect doesn't need write access to the queue, only to the destination.
 
 ## Related
 
-- [Tutorial: Copilot-Coding-Agent-driven repo](../tutorials/copilot-coding-agent-driven-repo.md)
-- [Guide: Hybrid agent-workspace pattern](./hybrid-agent-workspace-pattern.md)
+- [Tutorial: Copilot-Coding-Agent-driven repo](../../tutorials/copilot-coding-agent-driven-repo.md)
+- [Guide: Hybrid agent-workspace pattern](../agent-workspaces/hybrid-agent-workspace-pattern.md)

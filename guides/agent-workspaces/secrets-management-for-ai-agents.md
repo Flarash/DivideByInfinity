@@ -109,7 +109,7 @@ A 30-second rotation is always cheaper than a 30-minute investigation.
 ## CI specifics for personal repos
 
 If your agent runs in GitHub Actions (e.g. scheduled prompts via Copilot
-Coding Agent — see [tutorials/copilot-coding-agent-driven-repo.md](../tutorials/copilot-coding-agent-driven-repo.md)):
+Coding Agent — see [tutorials/copilot-coding-agent-driven-repo.md](../../tutorials/copilot-coding-agent-driven-repo.md)):
 
 - Set secrets with `gh secret set NAME` rather than pasting in the web UI —
   fewer accidents with values ending up in browser history.

@@ -2,7 +2,7 @@
 
 > **Scope:** running an LLM over hundreds or thousands of images to produce structured tags / JSON sidecars. Covers model selection, rate limits, parallelism, checkpointing, and the failure modes that cost the most time.
 
-This is a reference, not a tutorial. If you want a step-by-step walkthrough, start with the [Pinterest taste extraction tutorial](../tutorials/local-pinterest-taste-extraction-with-agent-mode.md). The guide here is the set of patterns and gotchas that determine whether a 700-image run finishes in 6 hours or 6 days.
+This is a reference, not a tutorial. If you want a step-by-step walkthrough, start with the [Pinterest taste extraction tutorial](../../tutorials/local-pinterest-taste-extraction-with-agent-mode.md). The guide here is the set of patterns and gotchas that determine whether a 700-image run finishes in 6 hours or 6 days.
 
 ---
 
@@ -240,6 +240,6 @@ If you can tick all 12, you can leave the run unattended for 4+ hours and know i
 
 ## See also
 
-- [Pinterest taste extraction with agent-mode image analysis](../tutorials/local-pinterest-taste-extraction-with-agent-mode.md) — the concrete tutorial that this guide is the reference layer for.
+- [Pinterest taste extraction with agent-mode image analysis](../../tutorials/local-pinterest-taste-extraction-with-agent-mode.md) — the concrete tutorial that this guide is the reference layer for.
 - [Setting up a local RAG pipeline](./local-rag-pipeline.md) — the downstream side: what to do with the sidecars once you have them.
-- [Scheduled audit workflows](./scheduled-perf-audit-workflow.md) — a different "one-PR-per-run" automation pattern with similar checkpointing concerns.
+- [Scheduled audit workflows](../automation-patterns/scheduled-perf-audit-workflow.md) — a different "one-PR-per-run" automation pattern with similar checkpointing concerns.
