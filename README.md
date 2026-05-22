@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-9-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-10-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -40,6 +40,7 @@ If you came here for one specific thing, jump straight to it:
 | 🗂️ Lay out a repo that mixes humans + agents                 | [Hybrid agent-workspace pattern](./guides/hybrid-agent-workspace-pattern.md)          |
 | ⏰ Run scheduled audits that write one PR per run            | [Scheduled audit workflows](./guides/scheduled-perf-audit-workflow.md)                |
 | 📱 Root a Galaxy S25 Ultra (because why not)                 | [Root S25 Ultra on One UI 7](./guides/root-samsung-s25-ultra.md)                      |
+| 🛡️ Turn a rooted phone into a pentest rig                    | [Phone-based pentest environment](./guides/android-pentest-environment-on-rooted-phone.md) |
 
 ---
 
