@@ -42,7 +42,6 @@ jobs:
             --max-cache-age 7d
             --verbose
             --accept 200,206,429
-            --exclude-mail
             './**/*.md'
           fail: true
         env:
