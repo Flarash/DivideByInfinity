@@ -76,6 +76,6 @@ will block on its own CI.
 - Official docs: <https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent>
 - Tutorial in this repo: [Building a Copilot-Coding-Agent-driven repo](../../tutorials/copilot-coding-agent-driven-repo.md)
 - Related patterns:
-  - [Scheduled "one-PR-per-run" audits](../../guides/scheduled-perf-audit-workflow.md)
-  - [PR-as-publish-gate](../../guides/pr-as-publish-gate.md)
-  - [Hybrid agent-workspace pattern](../../guides/hybrid-agent-workspace-pattern.md)
+  - [Scheduled "one-PR-per-run" audits](../../guides/automation-patterns/scheduled-perf-audit-workflow.md)
+  - [PR-as-publish-gate](../../guides/automation-patterns/pr-as-publish-gate.md)
+  - [Hybrid agent-workspace pattern](../../guides/agent-workspaces/hybrid-agent-workspace-pattern.md)

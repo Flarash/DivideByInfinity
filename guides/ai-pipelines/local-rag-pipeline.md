@@ -247,6 +247,6 @@ scikit-learn>=1.5
 
 ## See also
 
-- [Pinterest taste extraction with agent-mode image analysis](../tutorials/local-pinterest-taste-extraction-with-agent-mode.md) — the tutorial that produces the sidecar corpus this guide indexes.
+- [Pinterest taste extraction with agent-mode image analysis](../../tutorials/local-pinterest-taste-extraction-with-agent-mode.md) — the tutorial that produces the sidecar corpus this guide indexes.
 - [Image-analysis pipelines with LLMs](./image-analysis-pipelines-with-llms.md) — companion guide on the upstream tagging pipeline.
-- [Hybrid agent-workspace pattern](./hybrid-agent-workspace-pattern.md) — repo layout convention this RAG pipeline fits inside.
+- [Hybrid agent-workspace pattern](../agent-workspaces/hybrid-agent-workspace-pattern.md) — repo layout convention this RAG pipeline fits inside.

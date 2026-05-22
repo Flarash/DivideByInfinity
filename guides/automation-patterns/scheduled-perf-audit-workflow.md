@@ -203,6 +203,6 @@ The infrastructure is identical; only the brief and the audit list contents chan
 
 ## Related
 
-- [Tutorial: Copilot Coding Agent-driven repo](../tutorials/copilot-coding-agent-driven-repo.md)
+- [Tutorial: Copilot Coding Agent-driven repo](../../tutorials/copilot-coding-agent-driven-repo.md)
 - [Guide: PR-as-publish-gate](./pr-as-publish-gate.md) — complementary pattern when
   the PR's effect is external rather than internal.

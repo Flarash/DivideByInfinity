@@ -235,7 +235,7 @@ identical across all of them; the only thing that changes is the prompt.
 ## Next steps
 
 - Add a second workflow (e.g., weekly summary) using the same skeleton.
-- Combine with the **[PR-as-publish-gate](../guides/pr-as-publish-gate.md)** pattern if
+- Combine with the **[PR-as-publish-gate](../guides/automation-patterns/pr-as-publish-gate.md)** pattern if
   the PRs publish anything externally (social posts, deployments, etc.).
 - See **[tools/copilot-coding-agent/](../tools/copilot-coding-agent/)** for the tool
   page with shortcuts and links.

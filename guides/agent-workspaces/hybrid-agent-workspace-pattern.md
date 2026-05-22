@@ -216,11 +216,11 @@ Two of my repos use this layout end-to-end:
   analysis workflows. Heavy on `workspace/aesthetic-reference/` and `tools/`.
 - **Sun** (private) — social-media automation. Heavy on `prompts/`,
   `tools/sun/clients/`, and a `queue/` folder layered on top for the
-  [PR-as-publish-gate](./pr-as-publish-gate.md) pattern.
+  [PR-as-publish-gate](../automation-patterns/pr-as-publish-gate.md) pattern.
 
 A third (**Bellwether**) bootstrapped from scratch using this layout in 9 sequential
 phases; the bootstrap walkthrough is in
-[tools/copilot-coding-agent/](../tools/copilot-coding-agent/).
+[tools/copilot-coding-agent/](../../tools/copilot-coding-agent/).
 
 ---
 
@@ -237,6 +237,6 @@ phases; the bootstrap walkthrough is in
 
 ## Related
 
-- [Tutorial: Copilot Coding Agent-driven repo](../tutorials/copilot-coding-agent-driven-repo.md)
-- [Guide: PR-as-publish-gate](./pr-as-publish-gate.md)
-- [Guide: Scheduled perf-audit workflow](./scheduled-perf-audit-workflow.md)
+- [Tutorial: Copilot Coding Agent-driven repo](../../tutorials/copilot-coding-agent-driven-repo.md)
+- [Guide: PR-as-publish-gate](../automation-patterns/pr-as-publish-gate.md)
+- [Guide: Scheduled perf-audit workflow](../automation-patterns/scheduled-perf-audit-workflow.md)
