@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-33-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-37-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -115,6 +115,10 @@ Let agents draft risky side effects — social posts, deploys, outbound email �
 | 🕸️ Decide if a service mesh is worth the operational tax       | [Service mesh — when and why](./guides/kubernetes/service-mesh-when-and-why.md)                       |
 | 🔄 Run GitOps with Argo CD or Flux without app-of-apps spaghetti | [GitOps with Argo CD and Flux](./guides/kubernetes/gitops-with-argocd-and-flux.md)                   |
 | 📈 Combine HPA, VPA, KEDA, and Cluster Autoscaler/Karpenter     | [Pod autoscaling deep dive](./guides/kubernetes/pod-autoscaling-deep-dive.md)                         |
+| 🔑 Apply least-privilege IAM without the wildcard trap          | [IAM least-privilege in practice](./guides/security/iam-least-privilege-in-practice.md)               |
+| 🗝️ Store secrets correctly across cloud workloads               | [Secrets management for cloud workloads](./guides/security/secrets-management-for-cloud-workloads.md) |
+| 🌐 Stack network security layers (VPC / NSG / private endpoints / WAF) | [Network security layers](./guides/security/network-security-layers.md)                          |
+| ⚠️ Run a threat-modeling exercise in 30 minutes                  | [Threat modeling without the bureaucracy](./guides/security/threat-modeling-without-the-bureaucracy.md) |
 
 ---
 
