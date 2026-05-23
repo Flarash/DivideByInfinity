@@ -36,6 +36,9 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 
 - [**PR-as-publish-gate**](./automation-patterns/pr-as-publish-gate.md) — using PRs as the approval boundary for side-effecting automation (social posts, deployments, outbound email). File contracts, validation CI, rollback flow, and OAuth gotchas across LinkedIn/Threads/Instagram.
 - [**Scheduled "one-PR-per-run" audit workflows**](./automation-patterns/scheduled-perf-audit-workflow.md) — pattern for daily/weekly perf, docs, or dependency audits where the audit list lives in the most-recently-merged PR's body. Self-chaining, no external store.
+- [**Deployment strategies**](./automation-patterns/deployment-strategies.md) — recreate / rolling / blue-green / canary / feature flags compared, per-platform implementation, and why the rollback path is the other half most teams skip.
+- [**Progressive delivery with feature flags**](./automation-patterns/progressive-delivery-with-flags.md) — flag categories (release/experiment/permission/kill-switch/config), OpenFeature, kill-switches that default ON, the flag-debt problem, and audit-trail requirements.
+- [**Multi-environment promotion**](./automation-patterns/multi-environment-promotion.md) — build-once-promote-many, config injection patterns, GitOps vs pipeline-as-code promotion, environment parity, ephemeral per-PR environments, and the multi-step schema migration discipline.
 
 ### ☁️ Cloud platform — [`cloud-platform/`](./cloud-platform/)
 
