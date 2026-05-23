@@ -19,6 +19,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | 🧱 [**`iac/`**](./iac/) | Infrastructure as Code patterns. Terraform vs Pulumi vs CloudFormation, module design, state management, policy-as-code, and drift detection. |
 | ⎈ [**`kubernetes/`**](./kubernetes/) | Kubernetes-specific deep dives. Helm vs Kustomize, service mesh decisions, GitOps with Argo CD / Flux, and pod autoscaling (HPA / VPA / KEDA / Karpenter). |
 | 🔐 [**`security/`**](./security/) | Cloud security patterns. IAM least-privilege, secrets management, network defense in depth, and threat modeling without the bureaucracy. |
+| 💰 [**`cost-optimization/`**](./cost-optimization/) | Cloud cost discipline. Right-sizing, savings plans, FinOps + tagging, and domain-specific optimization (Elasticsearch). |
 
 ## 🗺️ Full guide index
 
@@ -88,6 +89,12 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 - [**Secrets management for cloud workloads**](./security/secrets-management-for-cloud-workloads.md) — Key Vault / Secrets Manager / Vault comparison, workload identity as the gateway, the Secrets Store CSI driver pattern for Kubernetes, rotation patterns, and dynamic secrets.
 - [**Network security layers**](./security/network-security-layers.md) — VPC/VNet topology, subnet segmentation, security groups vs NACLs, private endpoints, WAF, DDoS, egress filtering, east-west controls, and modern bastion alternatives.
 - [**Threat modeling without the bureaucracy**](./security/threat-modeling-without-the-bureaucracy.md) — the four-question framework, STRIDE as a lens, the 30-minute team exercise, documenting the result, and the specific patterns that surface in 80% of models.
+
+### 💰 Cost optimization — [`cost-optimization/`](./cost-optimization/)
+
+- [**Right-sizing and savings plans**](./cost-optimization/right-sizing-and-savings-plans.md) — the right-sizing process, reserved instances vs savings plans vs CUDs, spot/preemptible safe use, the "right-sized prod and broke it" trap, Kubernetes request/limit sizing, and the cost-cap mindset.
+- [**FinOps, tagging, and showback**](./cost-optimization/finops-tagging-and-showback.md) — the tag taxonomy that survives, policy-based enforcement, cost allocation patterns, showback vs chargeback, per-team dashboards, untagged-resource hygiene, and the unit-economics conversation.
+- [**Elasticsearch cost and performance**](./cost-optimization/elasticsearch-cost-and-performance.md) — index lifecycle management (hot/warm/cold/frozen), shard sizing math, query optimization with filter context, rollups, index template hygiene, and the Elastic Cloud vs OpenSearch vs self-hosted decision.
 
 ## Conventions
 
