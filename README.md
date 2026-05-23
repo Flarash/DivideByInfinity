@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-29-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-33-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -111,6 +111,10 @@ Let agents draft risky side effects — social posts, deploys, outbound email �
 | 🚀 Pick a deployment strategy (rolling/blue-green/canary/flags) | [Deployment strategies](./guides/automation-patterns/deployment-strategies.md)                       |
 | 🎚️ Use feature flags without drowning in flag debt            | [Progressive delivery with feature flags](./guides/automation-patterns/progressive-delivery-with-flags.md) |
 | 🔁 Promote one artifact across dev → staging → prod safely     | [Multi-environment promotion](./guides/automation-patterns/multi-environment-promotion.md)            |
+| 📦 Decide between Helm, Kustomize, and raw YAML                | [Helm vs Kustomize vs raw YAML](./guides/kubernetes/helm-vs-kustomize-vs-raw-yaml.md)                 |
+| 🕸️ Decide if a service mesh is worth the operational tax       | [Service mesh — when and why](./guides/kubernetes/service-mesh-when-and-why.md)                       |
+| 🔄 Run GitOps with Argo CD or Flux without app-of-apps spaghetti | [GitOps with Argo CD and Flux](./guides/kubernetes/gitops-with-argocd-and-flux.md)                   |
+| 📈 Combine HPA, VPA, KEDA, and Cluster Autoscaler/Karpenter     | [Pod autoscaling deep dive](./guides/kubernetes/pod-autoscaling-deep-dive.md)                         |
 
 ---
 
