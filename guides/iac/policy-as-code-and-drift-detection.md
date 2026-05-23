@@ -252,5 +252,5 @@ contributing, or more than one environment, or any compliance scope.
   policies depend on having modules to allowlist.
 - [`terraform-state-management.md`](./terraform-state-management.md) — drift
   detection works against state; locking and surgery interact.
-- [`../security/iam-least-privilege-in-practice.md`](../security/iam-least-privilege-in-practice.md)
-  — preventing drift by restricting who can change prod outside CI.
+- The forthcoming `security/iam-least-privilege-in-practice.md` guide — preventing
+  drift by restricting who can change prod outside CI.
