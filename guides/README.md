@@ -20,6 +20,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | ⎈ [**`kubernetes/`**](./kubernetes/) | Kubernetes-specific deep dives. Helm vs Kustomize, service mesh decisions, GitOps with Argo CD / Flux, and pod autoscaling (HPA / VPA / KEDA / Karpenter). |
 | 🔐 [**`security/`**](./security/) | Cloud security patterns. IAM least-privilege, secrets management, network defense in depth, and threat modeling without the bureaucracy. |
 | 💰 [**`cost-optimization/`**](./cost-optimization/) | Cloud cost discipline. Right-sizing, savings plans, FinOps + tagging, and domain-specific optimization (Elasticsearch). |
+| 📡 [**`tech-radar/`**](./tech-radar/) | Staying current without burning out. Personal tech radar discipline and information-diet design. |
 
 ## 🗺️ Full guide index
 
@@ -95,6 +96,11 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 - [**Right-sizing and savings plans**](./cost-optimization/right-sizing-and-savings-plans.md) — the right-sizing process, reserved instances vs savings plans vs CUDs, spot/preemptible safe use, the "right-sized prod and broke it" trap, Kubernetes request/limit sizing, and the cost-cap mindset.
 - [**FinOps, tagging, and showback**](./cost-optimization/finops-tagging-and-showback.md) — the tag taxonomy that survives, policy-based enforcement, cost allocation patterns, showback vs chargeback, per-team dashboards, untagged-resource hygiene, and the unit-economics conversation.
 - [**Elasticsearch cost and performance**](./cost-optimization/elasticsearch-cost-and-performance.md) — index lifecycle management (hot/warm/cold/frozen), shard sizing math, query optimization with filter context, rollups, index template hygiene, and the Elastic Cloud vs OpenSearch vs self-hosted decision.
+
+### 📡 Tech radar — [`tech-radar/`](./tech-radar/)
+
+- [**Building a personal tech radar**](./tech-radar/building-a-personal-tech-radar.md) — the four rings (Adopt/Trial/Assess/Hold), quadrants by category, the quarterly review ritual, input sources, the "second blog post" rule, and the anti-patterns to avoid.
+- [**Keeping current without burning out**](./tech-radar/keeping-current-without-burning-out.md) — the diet hierarchy, the "one signal per week" audit, batching consumption, the "wait for the second post" filter, distinguishing hype from durable shifts, and newsletter triage.
 
 ## Conventions
 

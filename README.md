@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-40-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-42-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -122,6 +122,8 @@ Let agents draft risky side effects — social posts, deploys, outbound email �
 | 💵 Right-size cloud resources without breaking prod              | [Right-sizing and savings plans](./guides/cost-optimization/right-sizing-and-savings-plans.md)        |
 | 🏷️ Make cloud spend visible per team with FinOps + tags          | [FinOps, tagging, and showback](./guides/cost-optimization/finops-tagging-and-showback.md)            |
 | 🔎 Cut Elasticsearch cost without losing search                  | [Elasticsearch cost and performance](./guides/cost-optimization/elasticsearch-cost-and-performance.md) |
+| 📡 Build a personal tech radar (Adopt/Trial/Assess/Hold)         | [Building a personal tech radar](./guides/tech-radar/building-a-personal-tech-radar.md)               |
+| 🌊 Stay current without drowning in firehose feeds              | [Keeping current without burning out](./guides/tech-radar/keeping-current-without-burning-out.md)     |
 
 ---
 
