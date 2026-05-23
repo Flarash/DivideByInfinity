@@ -16,6 +16,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | 📱 [**`android/`**](./android/) | Phone-side adventures. Rooting Samsung Galaxy S25 Ultra, turning a rooted phone into a Termux+Kali+Frida pentest rig. |
 | 🤖 [**`agentic-tooling/`**](./agentic-tooling/) | Patterns for building MCP servers, Copilot CLI skills, multi-agent orchestration, and eval harnesses. |
 | 🏛️ [**`cloud-architecture/`**](./cloud-architecture/) | Design and architecture for cloud systems. Well-architected trade-offs, DR playbooks, multi-region/HA patterns, and architecture docs that survive. |
+| 🧱 [**`iac/`**](./iac/) | Infrastructure as Code patterns. Terraform vs Pulumi vs CloudFormation, module design, state management, policy-as-code, and drift detection. |
 
 ## 🗺️ Full guide index
 
@@ -61,6 +62,13 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 - [**Disaster recovery playbook**](./cloud-architecture/disaster-recovery-playbook.md) — RTO/RPO honesty, the four DR tiers, runbook anatomy, the quarterly drill, and the non-region gotchas (DNS TTLs, secrets replication, cross-region IAM).
 - [**Multi-region and HA patterns**](./cloud-architecture/multi-region-and-ha-patterns.md) — the HA ladder, single-region multi-AZ as the real baseline, active-passive vs active-active, split-brain prevention, and when single-region is the right call.
 - [**Architecture documentation that survives**](./cloud-architecture/architecture-documentation-that-survives.md) — why most docs rot, the four artifacts that survive (system overview, C4 diagrams, service READMEs, ADRs), Mermaid C4 examples, and the anti-patterns that look like documentation.
+
+### 🧱 Infrastructure as Code — [`iac/`](./iac/)
+
+- [**Terraform vs Pulumi vs CloudFormation**](./iac/terraform-vs-pulumi-vs-cloudformation.md) — honest comparison across coverage, state, testing, ergonomics, and lock-in. The "which one for which team" decision matrix plus the CDK conversation.
+- [**Terraform module design**](./iac/terraform-module-design.md) — root vs reusable modules, the thin-wrapper anti-pattern, input/output discipline, semver, registry vs in-repo, and testing strategies (validate / tflint / Terratest / `terraform test`).
+- [**Terraform state management**](./iac/terraform-state-management.md) — remote backends, locking, the workspace-vs-folder debate, state surgery (`mv`/`rm`/`import`/`moved`), drift, and recovering from corruption.
+- [**Policy as code and drift detection**](./iac/policy-as-code-and-drift-detection.md) — Checkov/tfsec/OPA/Sentinel comparison, where policies run in the pipeline, a concrete Checkov+Conftest setup, scheduled drift detection, and the exception process.
 
 ## Conventions
 
