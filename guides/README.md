@@ -15,6 +15,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | ☁️ [**`cloud-platform/`**](./cloud-platform/) | Platform-layer patterns for cloud infra. Terraform on Azure, AKS production checklist, CI/CD across the big three, Prometheus + Grafana + ELK observability. |
 | 📱 [**`android/`**](./android/) | Phone-side adventures. Rooting Samsung Galaxy S25 Ultra, turning a rooted phone into a Termux+Kali+Frida pentest rig. |
 | 🤖 [**`agentic-tooling/`**](./agentic-tooling/) | Patterns for building MCP servers, Copilot CLI skills, multi-agent orchestration, and eval harnesses. |
+| 🏛️ [**`cloud-architecture/`**](./cloud-architecture/) | Design and architecture for cloud systems. Well-architected trade-offs, DR playbooks, multi-region/HA patterns, and architecture docs that survive. |
 
 ## 🗺️ Full guide index
 
@@ -53,6 +54,13 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 - [**Building Copilot CLI skills**](./agentic-tooling/copilot-cli-skills.md) — `SKILL.md` anatomy, description-as-activation-trigger, procedural vs declarative bodies, one-skill-per-intent scoping, and the drift problems that hit every long-lived skill folder.
 - [**Multi-agent orchestration patterns**](./agentic-tooling/multi-agent-orchestration.md) — when to delegate vs do it yourself, parallel-only-if-independent rule, sub-agent prompt anatomy, owner-per-scope discipline, cost reality, and the anti-patterns ("planner + implementer" splits, speculative sub-agents) to avoid.
 - [**Building an agent eval harness**](./agentic-tooling/agent-eval-harness.md) — three eval layers (prompt/tool/e2e), property-based golden cases, LLM-as-judge biases (self-preference, verbose-wins, order), cost+latency tracking, eval drift, and when NOT to build a harness at all.
+
+### 🏛️ Cloud architecture — [`cloud-architecture/`](./cloud-architecture/)
+
+- [**Well-architected decisions in practice**](./cloud-architecture/well-architected-decisions.md) — the five pillars as a forced trade-off framework, the ADR template, the 30-minute review ritual, and where "best practices" actually conflict.
+- [**Disaster recovery playbook**](./cloud-architecture/disaster-recovery-playbook.md) — RTO/RPO honesty, the four DR tiers, runbook anatomy, the quarterly drill, and the non-region gotchas (DNS TTLs, secrets replication, cross-region IAM).
+- [**Multi-region and HA patterns**](./cloud-architecture/multi-region-and-ha-patterns.md) — the HA ladder, single-region multi-AZ as the real baseline, active-passive vs active-active, split-brain prevention, and when single-region is the right call.
+- [**Architecture documentation that survives**](./cloud-architecture/architecture-documentation-that-survives.md) — why most docs rot, the four artifacts that survive (system overview, C4 diagrams, service READMEs, ADRs), Mermaid C4 examples, and the anti-patterns that look like documentation.
 
 ## Conventions
 
