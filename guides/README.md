@@ -18,6 +18,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | 🏛️ [**`cloud-architecture/`**](./cloud-architecture/) | Design and architecture for cloud systems. Well-architected trade-offs, DR playbooks, multi-region/HA patterns, and architecture docs that survive. |
 | 🧱 [**`iac/`**](./iac/) | Infrastructure as Code patterns. Terraform vs Pulumi vs CloudFormation, module design, state management, policy-as-code, and drift detection. |
 | ⎈ [**`kubernetes/`**](./kubernetes/) | Kubernetes-specific deep dives. Helm vs Kustomize, service mesh decisions, GitOps with Argo CD / Flux, and pod autoscaling (HPA / VPA / KEDA / Karpenter). |
+| 🔐 [**`security/`**](./security/) | Cloud security patterns. IAM least-privilege, secrets management, network defense in depth, and threat modeling without the bureaucracy. |
 
 ## 🗺️ Full guide index
 
@@ -80,6 +81,13 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 - [**Service mesh — when and why (mostly, when not)**](./kubernetes/service-mesh-when-and-why.md) — what a mesh actually does, when adoption is justified, Istio vs Linkerd vs Cilium vs Consul, sidecar vs sidecarless (ambient/eBPF), the operational tax, and the pragmatic ramp-up plan.
 - [**GitOps with Argo CD and Flux**](./kubernetes/gitops-with-argocd-and-flux.md) — the four GitOps requirements, Argo's Application/ApplicationSet model, Flux's modular controllers, repo layout, sync waves, drift handling, multi-cluster topologies, secret management, bootstrap, and the app-of-apps anti-pattern.
 - [**Pod autoscaling deep dive**](./kubernetes/pod-autoscaling-deep-dive.md) — HPA, VPA, KEDA, Cluster Autoscaler, and Karpenter — what each scales, how they interact, the metrics-server gotcha, custom metrics via prometheus-adapter, and the "scaled to zero and nothing wakes up" failure mode.
+
+### 🔐 Security — [`security/`](./security/)
+
+- [**IAM least-privilege in practice**](./security/iam-least-privilege-in-practice.md) — wildcards as the canonical sin, RBAC vs ABAC, modeling across AWS/Azure/GCP, workload identity for services, role assumption chains, the quarterly audit cadence, and break-glass account discipline.
+- [**Secrets management for cloud workloads**](./security/secrets-management-for-cloud-workloads.md) — Key Vault / Secrets Manager / Vault comparison, workload identity as the gateway, the Secrets Store CSI driver pattern for Kubernetes, rotation patterns, and dynamic secrets.
+- [**Network security layers**](./security/network-security-layers.md) — VPC/VNet topology, subnet segmentation, security groups vs NACLs, private endpoints, WAF, DDoS, egress filtering, east-west controls, and modern bastion alternatives.
+- [**Threat modeling without the bureaucracy**](./security/threat-modeling-without-the-bureaucracy.md) — the four-question framework, STRIDE as a lens, the 30-minute team exercise, documenting the result, and the specific patterns that surface in 80% of models.
 
 ## Conventions
 
