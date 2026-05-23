@@ -10,7 +10,7 @@ _Plain-Markdown tutorials, battle-tested patterns, and the gotchas nobody warned
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-1f6feb?style=for-the-badge&labelColor=0d1117)](./LICENSE)
 [![Tutorials](https://img.shields.io/badge/Tutorials-4-238636?style=for-the-badge&labelColor=0d1117)](./tutorials/)
-[![Guides](https://img.shields.io/badge/Guides-22-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
+[![Guides](https://img.shields.io/badge/Guides-26-8957e5?style=for-the-badge&labelColor=0d1117)](./guides/)
 [![Tools](https://img.shields.io/badge/Tools-4-db6d28?style=for-the-badge&labelColor=0d1117)](./tools/)
 [![Link check](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml/badge.svg)](https://github.com/Flarash/DivideByInfinity/actions/workflows/link-check.yml)
 
@@ -104,6 +104,10 @@ Let agents draft risky side effects — social posts, deploys, outbound email �
 | 🆘 Write a DR playbook that survives the quarterly drill      | [Disaster recovery playbook](./guides/cloud-architecture/disaster-recovery-playbook.md)               |
 | 🌍 Decide between multi-AZ, active-passive, and active-active | [Multi-region and HA patterns](./guides/cloud-architecture/multi-region-and-ha-patterns.md)           |
 | 📐 Write architecture docs that don't rot in six months       | [Architecture documentation that survives](./guides/cloud-architecture/architecture-documentation-that-survives.md) |
+| 🧱 Decide between Terraform, Pulumi, and CloudFormation       | [Terraform vs Pulumi vs CloudFormation](./guides/iac/terraform-vs-pulumi-vs-cloudformation.md)        |
+| 🧩 Design Terraform modules that don't become a maintenance trap | [Terraform module design](./guides/iac/terraform-module-design.md)                                |
+| 🗄️ Manage Terraform state without losing prod                 | [Terraform state management](./guides/iac/terraform-state-management.md)                              |
+| 🛡️ Catch bad infra in CI and detect drift after apply         | [Policy as code and drift detection](./guides/iac/policy-as-code-and-drift-detection.md)              |
 
 ---
 
