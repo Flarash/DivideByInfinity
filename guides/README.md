@@ -17,6 +17,7 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 | 🤖 [**`agentic-tooling/`**](./agentic-tooling/) | Patterns for building MCP servers, Copilot CLI skills, multi-agent orchestration, and eval harnesses. |
 | 🏛️ [**`cloud-architecture/`**](./cloud-architecture/) | Design and architecture for cloud systems. Well-architected trade-offs, DR playbooks, multi-region/HA patterns, and architecture docs that survive. |
 | 🧱 [**`iac/`**](./iac/) | Infrastructure as Code patterns. Terraform vs Pulumi vs CloudFormation, module design, state management, policy-as-code, and drift detection. |
+| ⎈ [**`kubernetes/`**](./kubernetes/) | Kubernetes-specific deep dives. Helm vs Kustomize, service mesh decisions, GitOps with Argo CD / Flux, and pod autoscaling (HPA / VPA / KEDA / Karpenter). |
 
 ## 🗺️ Full guide index
 
@@ -72,6 +73,13 @@ Guides are grouped into topic folders. Each folder has its own `README.md` index
 - [**Terraform module design**](./iac/terraform-module-design.md) — root vs reusable modules, the thin-wrapper anti-pattern, input/output discipline, semver, registry vs in-repo, and testing strategies (validate / tflint / Terratest / `terraform test`).
 - [**Terraform state management**](./iac/terraform-state-management.md) — remote backends, locking, the workspace-vs-folder debate, state surgery (`mv`/`rm`/`import`/`moved`), drift, and recovering from corruption.
 - [**Policy as code and drift detection**](./iac/policy-as-code-and-drift-detection.md) — Checkov/tfsec/OPA/Sentinel comparison, where policies run in the pipeline, a concrete Checkov+Conftest setup, scheduled drift detection, and the exception process.
+
+### ⎈ Kubernetes — [`kubernetes/`](./kubernetes/)
+
+- [**Helm vs Kustomize vs raw YAML**](./kubernetes/helm-vs-kustomize-vs-raw-yaml.md) — packaging vs layering, the two-question decision matrix, Helm chart shape that works, Kustomize patch flavors, the values.yaml sprawl problem, and when raw YAML is correct.
+- [**Service mesh — when and why (mostly, when not)**](./kubernetes/service-mesh-when-and-why.md) — what a mesh actually does, when adoption is justified, Istio vs Linkerd vs Cilium vs Consul, sidecar vs sidecarless (ambient/eBPF), the operational tax, and the pragmatic ramp-up plan.
+- [**GitOps with Argo CD and Flux**](./kubernetes/gitops-with-argocd-and-flux.md) — the four GitOps requirements, Argo's Application/ApplicationSet model, Flux's modular controllers, repo layout, sync waves, drift handling, multi-cluster topologies, secret management, bootstrap, and the app-of-apps anti-pattern.
+- [**Pod autoscaling deep dive**](./kubernetes/pod-autoscaling-deep-dive.md) — HPA, VPA, KEDA, Cluster Autoscaler, and Karpenter — what each scales, how they interact, the metrics-server gotcha, custom metrics via prometheus-adapter, and the "scaled to zero and nothing wakes up" failure mode.
 
 ## Conventions
 
